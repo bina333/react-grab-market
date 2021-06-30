@@ -13,7 +13,7 @@ function Mainpage() {
         setProducts(products);
       })
       .catch(function (error) {
-        console.error("오류발생: ", error);
+        console.error("오류발생 : ", error);
       });
   }, []);
 
